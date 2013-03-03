@@ -1,4 +1,5 @@
-The DayZ Admin Debug_Monitor is a Version of DayZ_Monitor Just for admins, It is kept up to date by UrbanSkaters.
+The DayZ Admin Debug_Monitor is a Version of DayZ_Monitor that gives admins a special extended debug monitor
+while giving normal players the regular version (non-admin), It is kept up to date by Nomadic Hayward (aka UrbanSkaters).
 
 This version is for Chernarus, but should also work with other maps (back up your original files before testing).
 
@@ -14,17 +15,23 @@ Instructions
 
 1. Make a backup of your existing mission.pbo (goes without saying, but you'd be mad not to)
 
-2. Merge the changes with the included init.sqf and your existing missions init.sqf, remembering to change the dayZ_instance to your own and the UserID's to those of yours and your admin(s).  See comments inside the init.sqf
+2. Merge the changes with the included init.sqf and your existing missions init.sqf, remembering
+to change the dayZ_instance to your own and the UserID's to those of yours and your admin(s).
+See comments inside the init.sqf
 
-3. The included mission.sqm and description.sqf files can be replaced with your own (nothing needs to be changed in these they are simply provided to complete the mission.pbp).  However, if you're using a different map than Chernarus, you will definately want to replace the description.sqf and mission.sqm files with your own!
+3. The included mission.sqm and description.sqf files can be replaced with your own (nothing needs 
+to be changed in these they are simply provided to complete the mission.pbp).  However, if you're using 
+a different map than Chernarus, you will definately want to replace the description.sqf and mission.sqm files with your own!
 
 4. Repackage, upload and enjoy.
 
-If you want to see what the non-admin debug monitor looks like, then simply ommit your UID from the list.  Only UID's listed will get the Admin debug monitor.  
+If you want to see what the non-admin debug monitor looks like, then simply ommit your UID from the list.  
+Only UID's listed will get the Admin debug monitor.  
 
 Any questions or comments about this version to: urbanskaters@gmail.com
 
-If you feel brave and want to try new variables, then visit (for a list of useful commands): http://community.bistudio.com/wiki/Category:Scripting_Commands_ArmA2
+If you feel brave and want to try new variables, then visit (for a list of useful commands): 
+http://community.bistudio.com/wiki/Category:Scripting_Commands_ArmA2
 Unfortunately I can't provide support for any changes you make to this script.  
 
 ######
