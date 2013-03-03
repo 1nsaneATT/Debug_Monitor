@@ -3,7 +3,7 @@ while giving normal players the regular version (non-admin), It is kept up to da
 
 This version is for Chernarus, but should also work with other maps (back up your original files before testing).
 
-I accept no responsibility for any damage or downtime this script causes to your server.  
+I accept no responsibility for any damage or downtime this script may cuase to your server.  
 The script has been tested and confirmed to be working by myself and others.
 If you do not understand any of my instructions below, then please contact me: urbanskaters@gmail.com
 
