@@ -7,6 +7,11 @@ I accept no responsibility for any damage or downtime this script may cuase to y
 The script has been tested and confirmed to be working by myself and others.
 If you do not understand any of my instructions below, then please contact me: urbanskaters@gmail.com
 
+UPDATE: The ALWAYS ON version is currently being fixed due to errors.  
+Only the Trigger version works at the moment.  I'm working on fixing the other version this week.
+
+
+
 These instructions assume you already know how to unpack your mission.pbo, if not please Google for more information.
 
 ######
