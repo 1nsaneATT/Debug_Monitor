@@ -20,7 +20,7 @@ to change the dayZ_instance to your own and the UserID's to those of yours and y
 See comments inside the init.sqf
 
 3. The included mission.sqm and description.sqf files can be replaced with your own (nothing needs 
-to be changed in these they are simply provided to complete the mission.pbp).  However, if you're using 
+to be changed in these they are simply provided to complete the mission.pbo).  However, if you're using 
 a different map than Chernarus, you will definately want to replace the description.sqf and mission.sqm files with your own!
 
 4. Repackage, upload and enjoy.
