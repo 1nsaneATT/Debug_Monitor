@@ -30,7 +30,7 @@ You will need to make changes to the following file, depending on which version 
 
 For the Trigger Version: debug\playerstats.sqf (line 13)
   and
-For the Always On Version: debug\player_spawn_2.sqf (line 279)
+For the Always On Version: debug\player_spawn_2.sqf (line 284)
 
 Look for this code on those lines: if ((getPlayerUID vehicle player) in ["25517190","24681"])
 
