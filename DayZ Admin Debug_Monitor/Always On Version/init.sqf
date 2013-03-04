@@ -30,16 +30,8 @@ progressLoadingScreen 1.0;
 
 "filmic" setToneMappingParams [0.153, 0.357, 0.231, 0.1573, 0.011, 3.750, 6, 4]; setToneMapping "Filmic";
 
-/*
-Change the UID's below to match those of you and your admin(s)
-Your admins will get the advanced version of your debug monitor,
-while your regular users will get the cut down version. 
-*/
-if ((getPlayerUID vehicle player) in ["123456","24681"]) then { 
-player_spawn_2 = compile preprocessFileLineNumbers "player_spawn_2_admin.sqf";
-} else {
-player_spawn_2 = compile preprocessFileLineNumbers "player_spawn_2.sqf";
-};
+
+player_spawn_2 = compile preprocessFileLineNumbers "debug\player_spawn_2.sqf";
 
 
 

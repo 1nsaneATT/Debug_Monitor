@@ -4,34 +4,45 @@ while giving normal players the regular version (non-admin), It is kept up to da
 This version is for Chernarus, but should also work with other maps (back up your original files before testing).
 
 I accept no responsibility for any damage or downtime this script may cuase to your server.  
-The script has been tested and confirmed to be working by myself and others.
+The script has been tested and confirmed to be working by both admins and regular users on my server.
 If you do not understand any of my instructions below, then please contact me: urbanskaters@gmail.com
 
-UPDATE: The ALWAYS ON version is currently being fixed due to errors.  
-Only the Trigger version works at the moment.  I'm working on fixing the other version this week.
+UPDATE: Both versions have been tested by admins and regular users and confirmed to be working.
 
 
 
 These instructions assume you already know how to unpack your mission.pbo, if not please Google for more information.
 
 ######
+
 Instructions
+
 ######
 
-1. Make a backup of your existing mission.pbo (goes without saying, but you'd be mad not to)
+First things first, merge the included init.sqf with your own mission init.sqf file (remember to do the Instance Number). 
 
-2. Merge the changes with the included init.sqf and your existing missions init.sqf, remembering
-to change the dayZ_instance to your own and the UserID's to those of yours and your admin(s).
-See comments inside the init.sqf
+You DO NOT need the mission.sqm or description.ext files, these are just to complete the mission folder structure.
+You should have your own, but if you haven't use these instead (they only work with Chernarus though)
 
-3. The included mission.sqm and description.sqf files can be replaced with your own (nothing needs 
-to be changed in these they are simply provided to complete the mission.pbo).  However, if you're using 
-a different map than Chernarus, you will definately want to replace the description.sqf and mission.sqm files with your own!
+Copy the debug folder and contents to your mission folder, along with the merged init.sqf (if you haven't done already)
 
-4. Repackage, upload and enjoy.
+You will need to make changes to the following file, depending on which version you're using:
+
+For the Trigger Version: debug\playerstats.sqf (line 13)
+  and
+For the Always On Version: debug\player_spawn_2.sqf (line 279)
+
+Look for this code on those lines: if ((getPlayerUID vehicle player) in ["25517190","24681"])
+
+And change the UIDs to those of yours and your admin(s). 
+To add more UIDS simply put a comma at the end of the last UID and add a UID in brackets..
+So adding a new UID to the above example would look like this ["25517190","24681","998877"]
+
+#######
+
 
 If you want to see what the non-admin debug monitor looks like, then simply ommit your UID from the list.  
-Only UID's listed will get the Admin debug monitor.  
+Only UID's listed will get the Admin debug monitor. Either SCRL+LCK or the H key should bring it up. 
 
 Any questions or comments about this version to: urbanskaters@gmail.com
 
