@@ -56,6 +56,8 @@ if ((getPlayerUID vehicle player) in ["15517190","24681"]) then {
 
 } else {
 
+// Show the non-admin version to all other users
+
 hintSilent parseText format ["
 	<t size='1.20' font='Bitstream' color='#5882FA'>%1</t><br/><br/>
 	<t size='1.15' font='Bitstream' color='#5882FA'>Survived %7 Days</t><br/>
