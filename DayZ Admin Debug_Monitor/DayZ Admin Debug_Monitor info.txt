@@ -42,7 +42,13 @@ So adding a new UID to the above example would look like this ["25517190","24681
 
 
 If you want to see what the non-admin debug monitor looks like, then simply ommit your UID from the list.  
-Only UID's listed will get the Admin debug monitor. Either SCRL+LCK or the H key should bring it up. 
+Only UID's listed will get the Admin debug monitor. 
+To set a hotkey for your Debug Monitor (if one isn't already set), go to:
+
+Options > Controls > Custom Controls (click on the white pull down menu) > (assing a hotkey to User Action 20)
+
+FYI: Some people are advising me that you can press H to get the debug monitor up, but it is worth
+noting that the H key will only bring up a snapshot of the last debug state (i.e not up to date).
 
 Any questions or comments about this version to: urbanskaters@gmail.com
 
