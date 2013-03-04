@@ -1,5 +1,5 @@
 The DayZ Admin Debug_Monitor is a Version of DayZ Debug_Monitor that gives admins a special extended debug monitor
-while giving normal players the regular version (non-admin), It is kept up to date by Nomadic Hayward (aka UrbanSkaters).
+while giving normal players the regular version (non-admin), It is kept up to date by myself Hayward (aka UrbanSkaters).
 
 This version is for Chernarus, but should also work with other maps (back up your original files before testing).
 
