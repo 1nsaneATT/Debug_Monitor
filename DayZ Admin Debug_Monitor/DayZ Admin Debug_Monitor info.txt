@@ -35,7 +35,7 @@ For the Always On Version: debug\player_spawn_2.sqf (line 279)
 Look for this code on those lines: if ((getPlayerUID vehicle player) in ["25517190","24681"])
 
 And change the UIDs to those of yours and your admin(s). 
-To add more UIDS simply put a comma at the end of the last UID and add a UID in brackets..
+To add more UIDS simply put a comma at the end of the last UID and add another UID in brackets..
 So adding a new UID to the above example would look like this ["25517190","24681","998877"]
 
 #######
