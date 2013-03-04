@@ -22,7 +22,7 @@ Instructions
 First things first, merge the included init.sqf with your own mission init.sqf file (remember to do the Instance Number). 
 
 You DO NOT need the mission.sqm or description.ext files, these are just to complete the mission folder structure.
-You should have your own, but if you haven't use these instead (they only work with Chernarus though)
+You should have your own, but if you haven't, then use these instead (they only work with Chernarus though)
 
 Copy the debug folder and contents to your mission folder, along with the merged init.sqf (if you haven't done already)
 
