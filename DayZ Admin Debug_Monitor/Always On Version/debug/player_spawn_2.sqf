@@ -275,7 +275,12 @@ while {true} do {
 	//dayz_playerTrigger attachTo [_refObj,[0,0,0]];
 	//dayz_playerTrigger setTriggerArea [_size,_size,0,false];
 
-	
+
+/*
+Change the UID's below to match those of you and your admin(s)
+Your admins will get the advanced version of your debug monitor,
+while your regular users will get the cut down version. 
+*/	
 	if ((getPlayerUID vehicle player) in ["25517190","24681"]) then { 
 
 	 //Debug Info (Admins Only)
@@ -330,7 +335,8 @@ while {true} do {
 
 } else {
 	
-    //Debug Info (normal users)
+    //Show Regular Debug Monitor For All Other Users
+
             _headShots =    player getVariable["headShots",0];
             _kills =                player getVariable["zombieKills",0];
             _killsH =               player getVariable["humanKills",0];
