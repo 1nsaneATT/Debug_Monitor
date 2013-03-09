@@ -2,6 +2,6 @@ This version may be out of date.. Please read on!
 
 To avoid duplication issues and out-of-date versions , I'm pushing this version from my own github. 
 
-https://github.com/nomadichayward/DayZ_Duel_Admin_Debug_Monitor 
+https://github.com/nomadichayward/DayZ_Dual_Admin_Debug_Monitor 
 
 Many thanks to P1-Kashwak for his original work and permission to modify it for my own project. 
